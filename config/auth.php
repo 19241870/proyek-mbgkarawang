@@ -36,11 +36,17 @@ return [
     */
 
     'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
-        ],
+    'web' => [
+        'driver' => 'session',
+        'provider' => 'users',
     ],
+
+    'pemerintah' => [
+        'driver' => 'session',
+        'provider' => 'pemerintah',
+    ],
+],
+
 
     /*
     |--------------------------------------------------------------------------
@@ -59,17 +65,18 @@ return [
     |
     */
 
-    'providers' => [
-        'users' => [
-            'driver' => 'eloquent',
-            'model' => App\Models\User::class,
-        ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+  'providers' => [
+    'users' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\User::class,
     ],
+
+    'pemerintah' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\Pemerintah::class,
+    ],
+],
+
 
     /*
     |--------------------------------------------------------------------------
