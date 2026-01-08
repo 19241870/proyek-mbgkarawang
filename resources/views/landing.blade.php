@@ -15,7 +15,7 @@
     <nav class="bg-[#064E3B] text-white px-10 py-4 flex justify-between items-center shadow-md">
         <div class="flex items-center gap-3">
         <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center overflow-hidden">
-        <img src="{{ asset('img/logo.png') }}" alt="Logo" class="w-full h-full object-contain">
+        <img src="{{ asset('img/logo mbg.png') }}" alt="Logo" class="w-full h-full object-contain">
         </div>
             <div>
                 <h1 class="font-bold leading-none">MBG Karawang</h1>
@@ -34,7 +34,7 @@
     <main class="max-w-7xl mx-auto px-6 py-16 text-center">
         <div class="flex justify-center mb-6">
             <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center border-4 border-[#064E3B] shadow-lg overflow-hidden">
-    <img src="{{ asset('img/karawang.jpg') }}" alt="Lambang Daerah" class="w-full h-full object-contain p-2">
+    <img src="{{ asset('img/logokarawang.jpg') }}" alt="Lambang Daerah" class="w-full h-full object-contain p-2">
     </div>
         </div>
 
@@ -45,22 +45,22 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
             <div class="group">
                 <div class="bg-gray-200 rounded-2xl h-48 overflow-hidden shadow-xl transform group-hover:scale-105 transition duration-300">
-                    <img src="{{ asset('img/anak anak.jpg') }}" alt="Kegiatan 1" class="w-full h-full object-cover">
+                    <img src="{{ asset('img/anak.jpg') }}" alt="Kegiatan 1" class="w-full h-full object-cover">
                 </div>
             </div>
             <div class="group">
                 <div class="bg-gray-200 rounded-2xl h-48 overflow-hidden shadow-xl transform group-hover:scale-105 transition duration-300">
-                    <img src="{{ asset('img/embege.jpg') }}" alt="Kegiatan 2" class="w-full h-full object-cover">
+                    <img src="{{ asset('img/mbg.jpg') }}" alt="Kegiatan 2" class="w-full h-full object-cover">
                 </div>
             </div>
             <div class="group">
                 <div class="bg-gray-200 rounded-2xl h-48 overflow-hidden shadow-xl transform group-hover:scale-105 transition duration-300">
-                    <img src="{{ asset('img/dapur.jpg') }}" alt="Kegiatan 3" class="w-full h-full object-cover">
+                    <img src="{{ asset('img/dapurmbg.jpg') }}" alt="Kegiatan 3" class="w-full h-full object-cover">
                 </div>
             </div>
             <div class="group">
                 <div class="bg-gray-200 rounded-2xl h-48 overflow-hidden shadow-xl transform group-hover:scale-105 transition duration-300">
-                    <img src="{{ asset('img/embegesd.jpg') }}" alt="Kegiatan 4" class="w-full h-full object-cover">
+                    <img src="{{ asset('img/mbgsd.jpg') }}" alt="Kegiatan 4" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
